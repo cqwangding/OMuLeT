@@ -41,6 +41,7 @@ The parameters for OMuLeT algorithm are described as follows:
 | opts.error_type  | 1: distance loss, 2: L1 loss, 3: L2 loss                     |
 | opts.unit_change | The final output will be divided by this variable for unit change purpose |
 | opts.use_predict | In backtracking and restart, the forecasts generated at current time step can be used as ground truth in the past time step. In our experiments, this technique can further improve the hurricane trajectory predictions but not intensity predictions. |
+| opts.geo         | Whether the input features are geographic data (latitude, longitude) |
 | opts.rho         | Hyperparameter ρ, controls the trade off between using the weights from current and past hurricane |
 | opts.gamma       | Hyperparameter γ, determines the relative importance of making accurate forecasts at different lead times. |
 | opts.omega       | Hyperparameter ω, ensures smoothness in the model parameters for different lead times |
