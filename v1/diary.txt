@@ -1,0 +1,91 @@
+run
+Experiments for location: AL & EP
+---------- Split hurricane to train set and test set / Begin ----------
+Training:58 Validation:26 Testing:128
+---------- Split hurricane to train set and test set / End ----------
+---------- Run online multi-task forecasting / Begin ----------
+Run online multi-task forecasting / Runs:20/212 / Timeleft:26.491789 seconds
+Run online multi-task forecasting / Runs:40/212 / Timeleft:22.414590 seconds
+Run online multi-task forecasting / Runs:60/212 / Timeleft:19.355797 seconds
+Run online multi-task forecasting / Runs:80/212 / Timeleft:17.907861 seconds
+Run online multi-task forecasting / Runs:100/212 / Timeleft:15.123737 seconds
+Run online multi-task forecasting / Runs:120/212 / Timeleft:12.656597 seconds
+Run online multi-task forecasting / Runs:140/212 / Timeleft:10.479439 seconds
+Run online multi-task forecasting / Runs:160/212 / Timeleft:7.549667 seconds
+Run online multi-task forecasting / Runs:180/212 / Timeleft:4.865196 seconds
+Run online multi-task forecasting / Runs:200/212 / Timeleft:1.948302 seconds
+---------- Calculate prediction error / Begin ----------
+Training trajectory data
+$Ens_{mean}$ & 28.85  & 47.47  & 66.08  & 84.92  \\\hline
+$NHC$ & 29.19  & 47.35  & 63.61  & 80.72  \\\hline
+$OMuLeT$ & 27.21  & 41.93  & 54.05  & 67.29  \\\hline
+Validation trajectory data
+$Ens_{mean}$ & 24.93  & 38.80  & 52.03  & 65.40  \\\hline
+$NHC$ & 25.41  & 39.21  & 51.26  & 64.15  \\\hline
+$OMuLeT$ & 23.97  & 34.73  & 44.56  & 54.79  \\\hline
+Training + Validation trajectory data
+$Ens_{mean}$ & 27.63  & 44.72  & 61.57  & 78.51  \\\hline
+$NHC$ & 28.01  & 44.77  & 59.65  & 75.28  \\\hline
+$OMuLeT$ & 26.20  & 39.64  & 51.00  & 63.18  \\\hline
+Testing trajectory data
+$Ens_{mean}$ & 26.09  & 40.20  & 53.77  & 68.49  \\\hline
+$NHC$ & 26.58  & 40.97  & 54.41  & 68.47  \\\hline
+$OMuLeT$ & 24.94  & 37.08  & 48.78  & 59.08  \\\hline
+----------------------------------------------------------------------
+Experiments for location: AL
+---------- Split hurricane to train set and test set / Begin ----------
+Training:29 Validation:8 Testing:52
+---------- Split hurricane to train set and test set / End ----------
+---------- Run online multi-task forecasting / Begin ----------
+Run online multi-task forecasting / Runs:20/89 / Timeleft:10.776316 seconds
+Run online multi-task forecasting / Runs:40/89 / Timeleft:6.452564 seconds
+Run online multi-task forecasting / Runs:60/89 / Timeleft:3.913220 seconds
+Run online multi-task forecasting / Runs:80/89 / Timeleft:1.536456 seconds
+---------- Calculate prediction error / Begin ----------
+Training trajectory data
+$Ens_{mean}$ & 30.00  & 50.83  & 72.10  & 93.03  \\\hline
+$NHC$ & 30.61  & 50.65  & 69.07  & 87.24  \\\hline
+$OMuLeT$ & 28.04  & 42.94  & 59.01  & 72.89  \\\hline
+Validation trajectory data
+$Ens_{mean}$ & 29.71  & 45.39  & 63.58  & 79.40  \\\hline
+$NHC$ & 30.70  & 45.85  & 62.67  & 74.73  \\\hline
+$OMuLeT$ & 27.59  & 38.52  & 52.91  & 65.32  \\\hline
+Training + Validation trajectory data
+$Ens_{mean}$ & 29.94  & 49.69  & 70.27  & 90.14  \\\hline
+$NHC$ & 30.63  & 49.65  & 67.70  & 84.59  \\\hline
+$OMuLeT$ & 27.95  & 42.01  & 57.71  & 71.29  \\\hline
+Testing trajectory data
+$Ens_{mean}$ & 27.74  & 42.74  & 57.85  & 75.39  \\\hline
+$NHC$ & 28.83  & 44.03  & 58.66  & 75.94  \\\hline
+$OMuLeT$ & 26.53  & 38.77  & 51.85  & 63.61  \\\hline
+----------------------------------------------------------------------
+Experiments for location: EP
+---------- Split hurricane to train set and test set / Begin ----------
+Training:29 Validation:18 Testing:76
+---------- Split hurricane to train set and test set / End ----------
+---------- Run online multi-task forecasting / Begin ----------
+Run online multi-task forecasting / Runs:20/123 / Timeleft:11.385263 seconds
+Run online multi-task forecasting / Runs:40/123 / Timeleft:10.870462 seconds
+Run online multi-task forecasting / Runs:60/123 / Timeleft:8.924203 seconds
+Run online multi-task forecasting / Runs:80/123 / Timeleft:6.347139 seconds
+Run online multi-task forecasting / Runs:100/123 / Timeleft:3.558788 seconds
+Run online multi-task forecasting / Runs:120/123 / Timeleft:0.564067 seconds
+---------- Calculate prediction error / Begin ----------
+Training trajectory data
+$Ens_{mean}$ & 27.54  & 43.74  & 59.60  & 76.08  \\\hline
+$NHC$ & 27.57  & 43.69  & 57.73  & 73.63  \\\hline
+$OMuLeT$ & 26.46  & 41.19  & 49.05  & 62.06  \\\hline
+Validation trajectory data
+$Ens_{mean}$ & 22.86  & 35.99  & 47.09  & 59.78  \\\hline
+$NHC$ & 23.11  & 36.37  & 46.39  & 59.89  \\\hline
+$OMuLeT$ & 22.43  & 33.66  & 41.08  & 52.94  \\\hline
+Training + Validation trajectory data
+$Ens_{mean}$ & 25.65  & 40.58  & 54.50  & 69.21  \\\hline
+$NHC$ & 25.77  & 40.71  & 53.11  & 67.84  \\\hline
+$OMuLeT$ & 24.84  & 38.12  & 45.80  & 58.22  \\\hline
+Testing trajectory data
+$Ens_{mean}$ & 24.67  & 38.06  & 50.33  & 62.74  \\\hline
+$NHC$ & 24.65  & 38.39  & 50.83  & 62.25  \\\hline
+$OMuLeT$ & 23.73  & 36.03  & 45.85  & 55.80  \\\hline
+----------------------------------------------------------------------
+diary off
