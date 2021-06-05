@@ -67,8 +67,7 @@ If you find OMuLeT or hurricane dataset useful for your research, please conside
 ```
 @inproceedings{wang2020omulet,
   title={{OMuLeT: Online Multi-Lead Time Location Prediction for Hurricane Trajectory Forecasting}},
-  author={
-  Wang, Ding and Liu, Boyang and Tan, Pang-Ning and Luo, Lifeng},
+  author={Wang, Ding and Liu, Boyang and Tan, Pang-Ning and Luo, Lifeng},
   booktitle={Proceedings of 34th AAAI Conference on Artificial Intelligence},
   year={2020}
 }
