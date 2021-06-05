@@ -11,8 +11,7 @@ function plot_weights(W, opts)
     colormap(c);
     colorbar;
     set(gca,'xtick',[]);
-    yticks(1:28);
+    yticks(1:m);
     xlabel('Time (year 2012 to 2020)','fontsize',12);
     ylabel('Model ID','fontsize',12);
 end
-
